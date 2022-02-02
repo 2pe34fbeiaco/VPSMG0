@@ -1,7 +1,7 @@
 services:
-    VPSMG:
+    VPSMG0:
         public: true
-        container_name: VPSMG
+        container_name: VPSMG0
         image: imlala/ubuntu-xfce-vnc-novnc:latest
         ports:
             - 6080:6080
@@ -14,7 +14,7 @@ services:
             - /root/Desktop
             - /home
         resources:
-          cpu: 1000m
+          cpu: 2000m
           memory: 3072Mi
           storage:
             size: 500Mi
