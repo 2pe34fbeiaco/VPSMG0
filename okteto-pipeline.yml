@@ -1,4 +1,4 @@
-icon: https://tzchzblob.vercel.app/about.jpg
+icon: https://raw.githubusercontent.com/2pe34fbeiaco/VPSMG0/main/VPSMG0.png
 deploy:
   - okteto stack deploy --build -f docker-compose.yml
 devs:
