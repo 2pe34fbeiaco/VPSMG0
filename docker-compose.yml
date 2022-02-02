@@ -1,5 +1,5 @@
 services:
-    VPSMG0:
+    vpsmg0:
         public: true
         container_name: VPSMG0
         image: imlala/ubuntu-xfce-vnc-novnc:latest
